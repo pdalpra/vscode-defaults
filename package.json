@@ -2,6 +2,7 @@
   "name": "vscode-defaults",
   "displayName": "vscode-defaults",
   "description": "My VS Code defaults",
+  "publisher": "pdalpra",
   "repository": {
     "url": "https://github.com/pdalpra/vscode-defaults"
   },
@@ -13,7 +14,7 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "contributes": {},
